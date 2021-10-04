@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+}
+
+body {
+	font-family: Arial;
+	background-color: #eee;
+}
+
+figure {
+	position: absolute;
+	top: 12px;
+	left: 20px;
+}
+figure img {
+	position: relative;
+	margin-top: 10px;
+}
+
+figure figcaption {
+	position: relative;
+	font-size: 25px;
+	margin-top: -4px;
+	font-weight: bolder;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	margin-top: -20px;
+}
+
+h2 {
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+
+form {
+	border: 1px solid black;
+	padding: 10px;
+	margin: 20px;
+	background-color: white;
+	border-radius: 5px;
+	border-radius: 5px;
+}
+form p {
+	padding: 10px;
+}
+
+form input {
+	border-radius: 5px;
+	border: 1px solid #999;
+	padding: 5px;
+}
+
+ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+li {
+	width: 300px;
+	margin: 20px;
+	border: 2px solid black;
+	padding: 5px;
+	background-color: #0d0;
+	color: black;
+	box-shadow: 2px 5px 5px black;
+	font-size: 18px;
+	list-style: none;
+}
+
+li:hover{
+	transform: scale(1.1);
+	background-color: black;
+	border: 2px solid red;
+	color:  white;
+}
+
+a {
+	padding: 5px;
+	margin: 10px;
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: red;
+}
+
+button {
+	height: 35px;
+	background-color: black;
+	font-size: 25px;
+	border-radius: 5px;
+	margin: 10px 10px 10px 10px;
+	color: white;
+}
+
+#login {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 10px;
+	font-size: 30px;
+	margin: 10px 0px 10px 0px;
+}
+
+#login:hover {
+	border: 2px solid red;
+	color: red;
+	background-color: white;
+}
+
+#icon {
+	position: absolute;
+	top: 3px;
+	left: 5px;
+	width: 50px;
+	height: 50px;
+}
+
+#text {
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+footer {
+	border-top: 1px solid black;
+	text-align: center;
+}
