@@ -6,7 +6,7 @@ if(isset($_SESSION['nome']) and isset($_SESSION['senha'])){
     $data_de_validade = $_POST["data"];
     $valor = $_POST["valor"];
 
-    include "Conexao.php";
+    include "conexao.php";
 
     $conn = conectar();
 
